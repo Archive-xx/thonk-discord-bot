@@ -1,8 +1,11 @@
 { 
   "token"  : "NTE5MDU5Mjc5NDg4MjIxMjE4.DuaFlQ.h_1puh3n_umzzI9Bnu0Y7zPsTHE",
-  "prefix" : "-",
+  "prefix" : "+",
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
+  "scripts": {"start": "node index.js"},
+  "dependencies": {"discord.js": "11.1.0","request": "2.81.0"
   }
 }
